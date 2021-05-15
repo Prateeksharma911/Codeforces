@@ -12,7 +12,6 @@ else:
     noofblock=snumber**2
     noofblock=n-noofblock
     if noofblock>1:
-
         x=noofblock//snumber
         f=math.floor(noofblock/(snumber+1))+1
         block+=f*2
